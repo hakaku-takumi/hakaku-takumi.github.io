@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+    font-family: cursive, serif;
+}
+
+.list{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.top-button{
+    float:left;
+    background-color: black;
+    border: 0px;
+    color: white;
+    text-align: center;
+    width: 18%;
+    margin: 0 1%;
+    height: 7vh;
+    font-size: 110%;
+}
+
+.top-button:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+.top-bar{
+    background-color: black;
+    height: 7vh;
+    margin: 0;
+}
+
+.text1{
+    margin: 30px;
+    text-align: center;
+    font-family: cursive, serif;
+    font-size: 150%;
+    color: white;
+}
+
+.email-form{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}

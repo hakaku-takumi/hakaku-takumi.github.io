@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="index.html"><button class="top-button">Main Page</button></a>
+        <a href="about_me.html"><button class="top-button">About me</button></a>
+        <a href="skills.html"><button class="top-button">Skills</button></a>
+        <a href="projects.html"><button class="top-button">Projects</button></a>
+        <a href="contact-me.html"><button class="top-button">Contact me</button></a>
+    </div>
+    <div class="text1">
+        <p>I live in Portugal. (not going to put my address)</p>
+        <p>Phone number: +351 934 919 799</p>
+        <p>Email: felipelobosantana@gmail.com</p>
+        <p>Secondary email (I check this one more often): hakaku.takumi@gmail.com</p>
+    </div>
+    <!-- Code from 'Formspree' -->
+    <div class="email-form">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkdanob" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label style="font-family: cursive, serif; font-size: 200%;" for="full-name">Full Name</label>
+              <input style="color:black" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label style="font-family: cursive, serif; font-size: 200%;" for="email-address">Email Address</label>
+              <input style="color:black" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label style="font-family: cursive, serif; font-size: 200%;" for="message">Message</label>
+              <textarea style="color:black" rows="5" name="message" id="message" placeholder="Write your message here." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit" style="color: black">
+          </form>
+          <style>/* reset */
+          #fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm fieldset,
+          #fs-frm optgroup,
+          #fs-frm label,
+          #fs-frm #card-element:disabled {
+            font-family: inherit;
+            font-size: 100%;
+            color: inherit;
+            border-radius: 0;
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+          }
+          #fs-frm label,
+          #fs-frm legend,
+          #fs-frm ::placeholder {
+            font-size: 1.2rem;
+            margin-bottom: .5rem;
+            padding-top: .2rem;
+            align-items: baseline;
+          }
+          
+          /* border, padding, margin, width */
+          #fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm #card-element {
+            border: 1px solid rgba(0,0,0,0.2);
+            background-color: rgba(255,255,255,0.9);
+            padding: .75em 1rem;
+            margin-bottom: 1.5rem;
+          }
+          #fs-frm input:focus,
+          #fs-frm select:focus,
+          #fs-frm textarea:focus {
+            background-color: white;
+            outline-style: solid;
+            outline-width: thin;
+            outline-color: gray;
+            outline-offset: -1px;
+          }
+          #fs-frm [type="text"],
+          #fs-frm [type="email"] {
+            width: 100%;
+          }
+          #fs-frm [type="button"],
+          #fs-frm [type="submit"],
+          #fs-frm [type="reset"] {
+            margin: auto;
+            width: auto;
+            cursor: pointer;
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+          }
+          #fs-frm [type="button"]:focus,
+          #fs-frm [type="submit"]:focus,
+          #fs-frm [type="reset"]:focus {
+            outline: none;
+          }
+          #fs-frm [type="submit"],
+
+          #fs-frm [type="radio"] {
+            -webkit-appearance: radio;
+            -moz-appearance: radio;
+            appearance: radio;
+          }
+          </style>
+    </div>
+</body>
+</html>

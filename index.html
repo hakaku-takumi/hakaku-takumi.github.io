@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Felipe Sant'Ana</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const botao = document.getElementById("date-alert");
+
+            function Greet(){
+                const now = new Date();
+                const time = `You clicked the button on the date ${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()}, at the time of ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}:${now.getMilliseconds()}`;
+                alert(time);
+            }
+
+            botao.addEventListener("click", Greet);
+        });
+    </script>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="index.html"><button class="top-button">Main Page</button></a>
+        <a href="about_me.html"><button class="top-button">About me</button></a>
+        <a href="skills.html"><button class="top-button">Skills</button></a>
+        <a href="projects.html"><button class="top-button">Projects</button></a>
+        <a href="contact-me.html"><button class="top-button">Contact me</button></a>
+    </div>
+    <div class="text1">
+        <p>Hi!</p>
+        <p>My name is Felipe Sant'Ana and as a part of the course I'm taking, CS50x, here is my own website.</p>
+        <p>I'm pretty much just a self-learner in this world of programming, and I hope some day I may be at the same level as some of the professional programmers working at the big companies.</p>
+        <p>This website is the product of a lot of struggles trying to learn how web programming works, and in it I talk about some of my current skills, projects I have made, more abstract stuff about me, and there's also a section with my contact information.</p>
+        <br>
+        <button id="date-alert">Get current date</button>
+    </div>
+</body>
+</html>
