@@ -1,6 +1,16 @@
+@font-face {
+    font-family: oswald;
+    src: url(oswald.ttf);
+  }
+
+@font-face {
+    font-family: mukta;
+    src: url(mukta.ttf);
+  }
+
 body{
     background-color: gray;
-    font-family: cursive, serif;
+    font-family: mukta, oswald, sans-serif;
 }
 
 .list{
@@ -38,7 +48,7 @@ li{
 .text1{
     margin: 30px;
     text-align: center;
-    font-family: cursive, serif;
+    font-family: mukta, oswald, sans-serif;
     font-size: 150%;
     color: white;
 }
